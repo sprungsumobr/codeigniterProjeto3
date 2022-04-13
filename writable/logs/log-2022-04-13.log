@@ -169,3 +169,48 @@ CRITICAL - 2022-04-13 12:28:55 --> Class 'App\Controllers\PessoaModel' not found
 #3 C:\wamp64\www\codeigniterProjeto13DSPeruibe\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #4 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
 #5 {main}
+CRITICAL - 2022-04-13 12:41:00 --> Class 'App\Controllers\PessoaModel' not found
+#0 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(825): App\Controllers\Home->pessoa()
+#1 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\codeigniterProjeto13DSPeruibe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-04-13 12:41:27 --> Invalid file: pessoas.php
+#0 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoas.php')
+#1 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\Common.php(1089): CodeIgniter\View\View->render('pessoas', Array, true)
+#2 C:\wamp64\www\codeigniterProjeto13DSPeruibe\app\Controllers\Home.php(20): view('pessoas')
+#3 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(825): App\Controllers\Home->page('pessoas')
+#4 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\codeigniterProjeto13DSPeruibe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#8 {main}
+CRITICAL - 2022-04-13 12:41:38 --> Class 'App\Controllers\PessoaModel' not found
+#0 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(825): App\Controllers\Home->pessoa()
+#1 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\codeigniterProjeto13DSPeruibe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-04-13 12:42:02 --> Class 'App\Controllers\PessoaModel' not found
+#0 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(825): App\Controllers\Home->pessoas()
+#1 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\codeigniterProjeto13DSPeruibe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-04-13 12:47:21 --> Class 'App\Models\PessoaModel' not found
+#0 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(825): App\Controllers\Home->pessoas()
+#1 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\codeigniterProjeto13DSPeruibe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-04-13 12:47:49 --> Class 'App\Controllers\PessoaModel' not found
+#0 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(825): App\Controllers\Home->pessoas()
+#1 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\codeigniterProjeto13DSPeruibe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\codeigniterProjeto13DSPeruibe\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
