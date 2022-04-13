@@ -15,6 +15,7 @@ class Home extends BaseController
     }
 
     public function page($page='home'){
+        
         echo view('template/header');
         echo view($page);
         echo view('template/footer');
