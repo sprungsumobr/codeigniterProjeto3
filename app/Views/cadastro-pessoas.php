@@ -4,7 +4,7 @@
     </div>
 </div>
 
-<form action="" method="post">
+<form action="gravar" method="post">
     <div class="row">
         <div class="col">
             <div class="forms-group">
