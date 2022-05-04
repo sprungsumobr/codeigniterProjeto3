@@ -1,10 +1,11 @@
+<div class="container">
 <h1> <?=$title?> </h1>
 
 <table class="table">
     <tr>
         <td>Nome:</td>
-        <td>Profissão</td>
-        <td>Idade</td>
+        <td>Profissão:</td>
+        <td>Idade:</td>
     </tr>
     <?php
 
@@ -25,3 +26,4 @@
 
 
 
+</div>

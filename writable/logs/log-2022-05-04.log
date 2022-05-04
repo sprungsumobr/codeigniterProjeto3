@@ -1,0 +1,90 @@
+ERROR - 2022-05-04 12:05:17 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+ERROR - 2022-05-04 12:05:35 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2022-05-04 12:05:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\wamp64\www\codeigniterProjeto3\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\codeigniterProjeto3\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\wamp64\www\codeigniterProjeto3\system\Database\Seeder.php(98): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\wamp64\www\codeigniterProjeto3\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#4 C:\wamp64\www\codeigniterProjeto3\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#5 C:\wamp64\www\codeigniterProjeto3\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#6 C:\wamp64\www\codeigniterProjeto3\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed')
+#8 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniterProjeto3\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniterProjeto3\spark(63): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2022-05-04 12:06:09 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2022-05-04 12:06:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\wamp64\www\codeigniterProjeto3\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\codeigniterProjeto3\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\wamp64\www\codeigniterProjeto3\system\Database\Seeder.php(98): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\wamp64\www\codeigniterProjeto3\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#4 C:\wamp64\www\codeigniterProjeto3\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#5 C:\wamp64\www\codeigniterProjeto3\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#6 C:\wamp64\www\codeigniterProjeto3\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'Pessoas')
+#8 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniterProjeto3\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniterProjeto3\spark(63): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2022-05-04 12:06:33 --> Error connecting to the database: Unknown database 'teste'
+ERROR - 2022-05-04 12:06:36 --> Error connecting to the database: Unknown database 'teste'
+CRITICAL - 2022-05-04 12:06:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'teste'
+#0 C:\wamp64\www\codeigniterProjeto3\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\codeigniterProjeto3\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\wamp64\www\codeigniterProjeto3\system\Database\Seeder.php(98): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\wamp64\www\codeigniterProjeto3\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#4 C:\wamp64\www\codeigniterProjeto3\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#5 C:\wamp64\www\codeigniterProjeto3\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#6 C:\wamp64\www\codeigniterProjeto3\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'Pessoas')
+#8 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniterProjeto3\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniterProjeto3\spark(63): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2022-05-04 12:08:15 --> Error connecting to the database: Unknown database 'teste'
+CRITICAL - 2022-05-04 12:08:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'teste'
+#0 C:\wamp64\www\codeigniterProjeto3\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\codeigniterProjeto3\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\codeigniterProjeto3\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\codeigniterProjeto3\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\codeigniterProjeto3\app\Models\PessoasModel.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\codeigniterProjeto3\app\Controllers\Home.php(29): App\Models\PessoasModel->getPessoas()
+#6 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->pessoas()
+#7 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#11 {main}
+CRITICAL - 2022-05-04 12:08:39 --> Invalid file: phpmyadmin.php
+#0 C:\wamp64\www\codeigniterProjeto3\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('phpmyadmin.php')
+#1 C:\wamp64\www\codeigniterProjeto3\system\Common.php(1089): CodeIgniter\View\View->render('phpmyadmin', Array, true)
+#2 C:\wamp64\www\codeigniterProjeto3\app\Controllers\Home.php(20): view('phpmyadmin')
+#3 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->page('phpmyadmin')
+#4 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#8 {main}
+CRITICAL - 2022-05-04 12:09:18 --> Invalid file: phpmyadmin.php
+#0 C:\wamp64\www\codeigniterProjeto3\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('phpmyadmin.php')
+#1 C:\wamp64\www\codeigniterProjeto3\system\Common.php(1089): CodeIgniter\View\View->render('phpmyadmin', Array, true)
+#2 C:\wamp64\www\codeigniterProjeto3\app\Controllers\Home.php(20): view('phpmyadmin')
+#3 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->page('phpmyadmin')
+#4 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#8 {main}
