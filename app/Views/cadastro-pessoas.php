@@ -21,13 +21,19 @@
                 <input type="text" name="profissao" id="" class="form-control">
             </div>
         </div>
-    </div>
 
-    <div class="row">
         <div class="col">
             <div class="forms-group">
                 <label for="">Idade: </label>
                 <input type="number" name="idade" id="" class="form-control">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
             </div>
         </div>
     </div>
