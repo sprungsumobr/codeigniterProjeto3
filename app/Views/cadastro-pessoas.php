@@ -9,7 +9,9 @@
         <div class="col">
             <div class="forms-group">
                 <label for="">Nome: </label>
-                <input type="text" name="nome" id="" class="form-control">
+                <input type="text" name="nome" id="" class="form-control" 
+                value="<?= isset($pessoa['nome']) ? $pessoa['nome'] : "" ?>">
+
             </div>
         </div>
     </div>
@@ -18,18 +20,21 @@
         <div class="col">
             <div class="forms-group">
                 <label for="">Profissão: </label>
-                <input type="text" name="profissao" id="" class="form-control">
+                <input type="text" name="profissao" id="" class="form-control"
+                value="<?= isset($pessoa['profissao']) ? $pessoa['profissao'] : "" ?>">
             </div>
         </div>
 
         <div class="col">
             <div class="forms-group">
                 <label for="">Idade: </label>
-                <input type="number" name="idade" id="" class="form-control">
+                <input type="number" name="idade" id="" class="form-control"
+                value="<?= isset($pessoa['idade']) ? $pessoa['idade'] : "" ?>">
             </div>
         </div>
     </div>
-
+        <input type="hidden" name="id"
+        value="<?= isset($pessoa['id']) ? $pessoa['id'] : "" ?>">
     <div class="row">
         <div class="col-6">
             <div class="d-grid gap-2">

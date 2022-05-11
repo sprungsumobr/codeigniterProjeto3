@@ -21,6 +21,8 @@ class Home extends BaseController
         echo view('template/footer');
     }
 
+   
+
     public function pessoas(){
         $model = new PessoasModel();
 
@@ -31,6 +33,12 @@ class Home extends BaseController
 
         echo view('template/header');
         echo view('pessoa',$data);
+        echo view('template/footer');
+    }
+
+    public function cadastrar(){
+        echo view('template/header');
+        echo view('cadastro-pessoas');
         echo view('template/footer');
     }
 
@@ -54,5 +62,16 @@ class Home extends BaseController
         return redirect("pessoa");
         
     }
+public function editar($id = null){
+    $model = new PessoasModel();
+
+    $data = [
+        'pessoa' => $model->getPessoa($id)
+    ];
+
+        echo view('template/header');
+        echo view('cadastro-pessoas',$data);
+        echo view('template/footer');
+}
 
 }

@@ -12,4 +12,9 @@ class PessoasModel extends Model{
     public function getPessoas(){
         return $this->findAll();
     }
+
+    public function getPessoa($id){
+        return $this->asArray()->where(['id'=>$id])->first();
+
+    }
 }
