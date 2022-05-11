@@ -48,4 +48,11 @@ class Home extends BaseController
 
     }
 
+    public function excluir($id = null){
+        $model = new PessoasModel();
+        $model->delete($id);
+        return redirect("pessoa");
+        
+    }
+
 }
