@@ -9,14 +9,14 @@
     </tr>
     <?php
 
-    foreach($pessoas as $pessoa_item){
+    foreach($pessoas as $veiculo_item){
     ?>
     <tr>
-        <td><?=  $pessoa_item['nome']  ?></td>
-        <td><?=  $pessoa_item['profissao']  ?></td>
-        <td><?=  $pessoa_item['idade']  ?></td>
-        <td><a href="excluir/<?=$pessoa_item['id']?>" class="btn btn-danger">Apagar</a></td>
-        <td><a href="editar/<?=$pessoa_item['id']?>" class="btn btn-warning">Editar</a></td>
+        <td><?=  $veiculo_item['modelo']  ?></td>
+        <td><?=  $veiculo_item['marca']  ?></td>
+        <td><?=  $veiculo_item['placa']  ?></td>
+        <td><a href="excluir/<?=$veiculo_item['id']?>" class="btn btn-danger">Apagar</a></td>
+        <td><a href="editar/<?=$veiculo_item['id']?>" class="btn btn-warning">Editar</a></td>
     </tr>
 
     <?php

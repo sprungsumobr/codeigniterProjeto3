@@ -13,16 +13,17 @@ class Pessoas extends Migration
                 'type'=>'int',
                 'auto_increment'=>true
             ],
-            'nome'=>[
+            'modelo'=>[
                 'type'=>'varchar',
                 'constraint'=>100
             ],
-            'profissao'=>[
+            'marca'=>[
                 'type'=>'varchar',
                 'constraint'=>100
             ],
-            'idade'=>[
-                'type'=>'int'
+            'placa'=>[
+                'type'=>'int',
+                'constraint'=>7
             ],
 
         ]);

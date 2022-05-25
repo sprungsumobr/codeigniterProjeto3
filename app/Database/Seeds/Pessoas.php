@@ -8,15 +8,10 @@ class Pessoas extends Seeder
 {
     public function run()
     {
-        $nome = ['Maria', 'Ana', 'Pedro', 'João', 'Marcos'];
-        for($x = 0; $x < 5; $x++){
-            $data = [
-                'nome' => $nome[$x],
-                'profissao'    => 'Programador',
-                'idade'=> 20
-            ];
-            $this->db->table('tb_pessoas')->insert($data);
-        }
+        $modelo = ['Civic', 'HB20S', 'Pollo', 'Fusion'];
+        $marca = ['Honda', 'Hyundai', 'Volkswagen', 'Ford'];
+        $placa = ['MHX3575', 'BUE5562', 'MZS2173', 'MZA8586'];
+        
         
 
         

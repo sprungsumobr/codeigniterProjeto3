@@ -47,9 +47,9 @@ class Home extends BaseController
 
         $model->save([
             'id' => $this->request->getVar('id'),
-            'nome' => $this->request->getVar('nome'),
-            'profissao' => $this->request->getVar('profissao'),
-            'idade' => $this->request->getVar('idade')
+            'nome' => $this->request->getVar('modelo'),
+            'profissao' => $this->request->getVar('marca'),
+            'idade' => $this->request->getVar('placa')
         ]);
 
         return redirect('pessoa');
