@@ -27,7 +27,7 @@ class Home extends BaseController
         $model = new PessoasModel();
 
         $data = [
-            'title'=>'Pessoas',
+            'title'=>'Veiculos',
             'pessoas'=>$model->getPessoas()
         ];
 
@@ -47,9 +47,9 @@ class Home extends BaseController
 
         $model->save([
             'id' => $this->request->getVar('id'),
-            'nome' => $this->request->getVar('modelo'),
-            'profissao' => $this->request->getVar('marca'),
-            'idade' => $this->request->getVar('placa')
+            'modelo' => $this->request->getVar('modelo'),
+            'marca' => $this->request->getVar('marca'),
+            'placa' => $this->request->getVar('placa')
         ]);
 
         return redirect('pessoa');

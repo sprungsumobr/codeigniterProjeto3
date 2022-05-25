@@ -22,7 +22,7 @@ class Pessoas extends Migration
                 'constraint'=>100
             ],
             'placa'=>[
-                'type'=>'int',
+                'type'=>'varchar',
                 'constraint'=>7
             ],
 

@@ -28,7 +28,7 @@
         <div class="col">
             <div class="forms-group">
                 <label for="">Placa: </label>
-                <input type="number" name="placa" id="" class="form-control"
+                <input type="text" name="placa" id="" class="form-control"
                 value="<?= isset($pessoa['placa']) ? $pessoa['placa'] : "" ?>">
             </div>
         </div>

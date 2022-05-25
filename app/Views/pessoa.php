@@ -3,9 +3,9 @@
 
 <table class="table">
     <tr>
-        <td>Nome:</td>
-        <td>Profissão:</td>
-        <td>Idade:</td>
+        <td>Modelo:</td>
+        <td>Marca:</td>
+        <td>Placa:</td>
     </tr>
     <?php
 
