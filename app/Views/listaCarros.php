@@ -1,5 +1,4 @@
-
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +14,7 @@
                     <div class="navigation">
                         <div class="menuToggle"></div>
                             <ul>
-                                <li class="list active" style="--clr:#f44336;">
+                                <li class="list" style="--clr:#f44336;">
                                     <a href="home">
                                         <span class="iconBarraLateral"><i class="fa-solid fa-house"></i></span>
                                         <span class="textBarraLateral">Home</span>
@@ -33,7 +32,7 @@
                                         <span class="textBarraLateral">Mensagem</span>
                                     </a>
                                 </li>
-                                <li class="list" style="--clr:#58D68D;">
+                                <li class="list active" style="--clr:#58D68D;">
                                     <a href="pessoa">
                                         <span class="iconBarraLateral"><i class="fa-solid fa-car"></i></span>
                                         <span class="textBarraLateral">Cadastro de Veiculo</span>
@@ -48,37 +47,33 @@
                         </ul>
                     </div>
                 </div>
-        </div>    
+        </div>
 
 
-        <!-- inicio do corpo da pagina-->
-    
-        <section class="carrosProdutos">
-            <div>
-                <img src="img\granta.png" alt="">
-                <p>Granta</p>
-            </div>
-            <div>
-                <img src="img\vesta.png" alt="">
-                <p>Vesta</p>
-            </div>
-            <div>
-                <img src="img\largus.png" alt="">
-                <p>Largus</p>
-            </div>
-            <div>
-                <img src="img\xray.png" alt="">
-                <p>Xray</p>
-            </div>
-            <div>
-                <img src="img\nivat.png" alt="">
-                <p>Niva Travel</p>
-            </div>
-            <div>
-                <img src="img\nival.png" alt="">
-                <p>Niva Legend</p>
-            </div>
-        </section>
+<h1> <?=$title?> </h1>
 
-        <!-- fim do corpo da pagina-->
-       
+<table class="table">
+    <tr>
+        <td>Nome:</td>
+        <td>Profissão</td>
+        <td>Idade</td>
+    </tr>
+    <?php
+
+    foreach($pessoas as $pessoa_item){
+    ?>
+    <tr>
+        <td><?=  $pessoa_item['nome']  ?></td>
+        <td><?=  $pessoa_item['profissao']  ?></td>
+        <td><?=  $pessoa_item['idade']  ?></td>
+    </tr>
+
+    <?php
+    }   
+
+    ?>
+
+</table>
+
+
+

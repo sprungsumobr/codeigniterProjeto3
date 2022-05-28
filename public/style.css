@@ -1,0 +1,210 @@
+/*CSS geral*/
+@import url('http://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: #3d3d3d;
+}
+img
+{
+    max-width: 100%;
+    display: block;
+}
+/*Barra Lateral*/
+.navigation
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 20px 0 20px 20px;
+    width: 75px;
+    background: #fff;
+    transition: 0.5s;
+    
+    
+}
+.navigation.open
+{
+    width: 250px;
+    transition: 0.5s;
+    
+}
+.navigation .menuToggle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 23px;
+    transition: 0.5s;
+}
+.navigation .menuToggle::before
+{
+content:'';
+position: absolute;
+width: 30px;
+height: 2px;
+background: #333;
+transform: translateY(-8px);
+transition: 0.5s;
+
+}
+.navigation.open .menuToggle::before
+{
+    transform: translateY(0px) rotate(45deg);
+    transition: 0.5s;
+}
+.navigation .menuToggle::after
+{
+content:'';
+position: absolute;
+width: 30px;
+height: 2px;
+background: #333;
+transform: translateY(8px);
+box-shadow: 0 -8px #333;
+transition: 0.5s;
+
+}
+.navigation.open .menuToggle::after
+{
+    transition: 0.5s;
+    transform: translateY(0px) rotate(-45deg);
+    box-shadow: 0 0 0 #333;
+
+}
+.navigation ul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.navigation ul li
+{
+    list-style: none;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+.navigation ul li.active
+{
+    transform: translateX(30px);
+}
+.navigation.open ul li.active
+{
+    transform: translateX(10px);
+}
+.navigation ul li a
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    text-decoration: none;
+}
+.navigation ul li a .iconBarraLateral
+{
+    position: relative;
+    display: block;
+    min-width: 55px;
+    height: 55px;
+    line-height: 60px;
+    transition: 0.5s;
+    color: #222;
+    border-radius: 10px;
+    font-size: 1.75em;
+}
+.navigation ul li.active a .iconBarraLateral
+{
+    color: #fff;
+    background: var(--clr);
+}
+.navigation ul li a .iconBarraLateral::before
+{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--clr);
+    filter: blur(8px);
+    opacity: 0;
+    transition: 0.5s;
+}
+.navigation ul li.active a .iconBarraLateral:before
+{
+    opacity: 0.5;
+    z-index: -1;
+}
+.navigation ul li a .textBarraLateral
+{
+    position: relative;
+    padding: 0 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.navigation.open ul li a .textBarraLateral
+{
+    opacity: 1;
+    visibility: visible;
+    align-items: center;
+    justify-content: center;
+}
+.navigation ul li.active a .textBarraLateral
+{
+color: var(--clr);
+}
+
+/*Rodapé*/
+.rodape
+{
+    color: #fff;
+    bottom: 0;
+    z-index: -2;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background: #222;
+}
+
+/*Home*/
+
+.carrosProdutos
+{
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.carrosProdutos > div
+{
+    flex: 1 1 200px;
+    margin: 10px;
+}

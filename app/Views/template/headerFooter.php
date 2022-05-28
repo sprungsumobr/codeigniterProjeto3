@@ -1,5 +1,4 @@
-
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -48,37 +47,16 @@
                         </ul>
                     </div>
                 </div>
-        </div>    
-
-
-        <!-- inicio do corpo da pagina-->
-    
-        <section class="carrosProdutos">
-            <div>
-                <img src="img\granta.png" alt="">
-                <p>Granta</p>
+        </div>
+            
+        
+            <div class="row">
+                <div class="col">
+                    <p>Todos os direitos reservados</p>
+                </div>
             </div>
-            <div>
-                <img src="img\vesta.png" alt="">
-                <p>Vesta</p>
-            </div>
-            <div>
-                <img src="img\largus.png" alt="">
-                <p>Largus</p>
-            </div>
-            <div>
-                <img src="img\xray.png" alt="">
-                <p>Xray</p>
-            </div>
-            <div>
-                <img src="img\nivat.png" alt="">
-                <p>Niva Travel</p>
-            </div>
-            <div>
-                <img src="img\nival.png" alt="">
-                <p>Niva Legend</p>
-            </div>
-        </section>
-
-        <!-- fim do corpo da pagina-->
-       
+    </div>
+    <script src="barraLateral.js"></script>
+    <script src="https://kit.fontawesome.com/c2c6441ca4.js" crossorigin="anonymous"></script>    
+</body>
+</html>
