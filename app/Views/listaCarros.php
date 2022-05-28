@@ -32,14 +32,14 @@
                                         <span class="textBarraLateral">Mensagem</span>
                                     </a>
                                 </li>
-                                <li class="list active" style="--clr:#58D68D;">
+                                <li class="list" style="--clr:#58D68D;">
                                     <a href="pessoa">
                                         <span class="iconBarraLateral"><i class="fa-solid fa-car"></i></span>
                                         <span class="textBarraLateral">Cadastro de Veiculo</span>
                                     </a>
                                 </li>
-                                <li class="list" style="--clr:#A569BD;">
-                                    <a href="#">
+                                <li class="list active" style="--clr:#A569BD;">
+                                    <a href="listacarros">
                                         <span class="iconBarraLateral"><i class="fa-solid fa-car-side"></i></span>
                                         <span class="textBarraLateral">Lista de Veiculos</span>
                                     </a>
@@ -50,22 +50,22 @@
         </div>
 
 
-<h1> <?=$title?> </h1>
+<h1> Lista de Carros </h1>
 
 <table class="table">
     <tr>
-        <td>Nome:</td>
-        <td>Profissão</td>
-        <td>Idade</td>
+        <td>Modelo:</td>
+        <td>Marca</td>
+        <td>Placa</td>
     </tr>
     <?php
 
-    foreach($pessoas as $pessoa_item){
+    foreach($carros as $carro_item){
     ?>
     <tr>
-        <td><?=  $pessoa_item['nome']  ?></td>
-        <td><?=  $pessoa_item['profissao']  ?></td>
-        <td><?=  $pessoa_item['idade']  ?></td>
+        <td><?=  $carro_item['modelo']  ?></td>
+        <td><?=  $carro_item['marca']  ?></td>
+        <td><?=  $carro_item['placa']  ?></td>
     </tr>
 
     <?php

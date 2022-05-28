@@ -308,3 +308,110 @@ Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de 
 #9 C:\wamp64\www\PW3\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #10 C:\wamp64\www\PW3\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\P...')
 #11 {main}
+CRITICAL - 2022-05-28 13:29:35 --> Undefined variable $title
+#0 C:\wamp64\www\PW3\codeigniterProjeto3\app\Views\listaCarros.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\P...', 53)
+#1 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(210): include('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\PW3\codeigniterProjeto3\system\Common.php(1089): CodeIgniter\View\View->render('listaCarros', Array, true)
+#4 C:\wamp64\www\PW3\codeigniterProjeto3\app\Controllers\Home.php(18): view('listaCarros')
+#5 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->page('listaCarros')
+#6 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PW3\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\PW3\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\P...')
+#10 {main}
+CRITICAL - 2022-05-28 13:31:53 --> Undefined variable $carros
+#0 C:\wamp64\www\PW3\codeigniterProjeto3\app\Views\listaCarros.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\P...', 63)
+#1 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(210): include('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\PW3\codeigniterProjeto3\system\Common.php(1089): CodeIgniter\View\View->render('listaCarros', Array, true)
+#4 C:\wamp64\www\PW3\codeigniterProjeto3\app\Controllers\Home.php(18): view('listaCarros')
+#5 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->page('listaCarros')
+#6 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PW3\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\PW3\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\P...')
+#10 {main}
+CRITICAL - 2022-05-28 13:41:24 --> Invalid file: pessoa.php
+#0 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoa.php')
+#1 C:\wamp64\www\PW3\codeigniterProjeto3\system\Common.php(1089): CodeIgniter\View\View->render('pessoa', Array, true)
+#2 C:\wamp64\www\PW3\codeigniterProjeto3\app\Controllers\Home.php(18): view('pessoa')
+#3 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->page('pessoa')
+#4 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\PW3\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\PW3\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\P...')
+#8 {main}
+CRITICAL - 2022-05-28 13:43:13 --> Invalid file: pessoa.php
+#0 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoa.php')
+#1 C:\wamp64\www\PW3\codeigniterProjeto3\system\Common.php(1089): CodeIgniter\View\View->render('pessoa', Array, true)
+#2 C:\wamp64\www\PW3\codeigniterProjeto3\app\Controllers\Home.php(18): view('pessoa')
+#3 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->page('pessoa')
+#4 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\PW3\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\PW3\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\P...')
+#8 {main}
+CRITICAL - 2022-05-28 13:44:37 --> Invalid file: pessoa.php
+#0 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoa.php')
+#1 C:\wamp64\www\PW3\codeigniterProjeto3\system\Common.php(1089): CodeIgniter\View\View->render('pessoa', Array, true)
+#2 C:\wamp64\www\PW3\codeigniterProjeto3\app\Controllers\Home.php(18): view('pessoa')
+#3 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->page('pessoa')
+#4 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\PW3\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\PW3\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\P...')
+#8 {main}
+CRITICAL - 2022-05-28 13:44:41 --> Invalid file: pessoa.php
+#0 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoa.php')
+#1 C:\wamp64\www\PW3\codeigniterProjeto3\system\Common.php(1089): CodeIgniter\View\View->render('pessoa', Array, true)
+#2 C:\wamp64\www\PW3\codeigniterProjeto3\app\Controllers\Home.php(18): view('pessoa')
+#3 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->page('pessoa')
+#4 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\PW3\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\PW3\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\P...')
+#8 {main}
+CRITICAL - 2022-05-28 13:45:02 --> Class "App\Controllers\CarrosModel" not found
+#0 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->gravar()
+#1 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\PW3\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\PW3\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\P...')
+#5 {main}
+CRITICAL - 2022-05-28 13:45:26 --> Undefined variable $carros
+#0 C:\wamp64\www\PW3\codeigniterProjeto3\app\Views\listaCarros.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\P...', 63)
+#1 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(210): include('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\PW3\codeigniterProjeto3\system\Common.php(1089): CodeIgniter\View\View->render('listacarros', Array, true)
+#4 C:\wamp64\www\PW3\codeigniterProjeto3\app\Controllers\Home.php(18): view('listacarros')
+#5 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->page('listacarros')
+#6 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PW3\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\PW3\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\P...')
+#10 {main}
+CRITICAL - 2022-05-28 13:46:37 --> Undefined variable $carros
+#0 C:\wamp64\www\PW3\codeigniterProjeto3\app\Views\listaCarros.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\P...', 63)
+#1 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(210): include('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\PW3\codeigniterProjeto3\system\Common.php(1089): CodeIgniter\View\View->render('listacarros', Array, true)
+#4 C:\wamp64\www\PW3\codeigniterProjeto3\app\Controllers\Home.php(18): view('listacarros')
+#5 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->page('listacarros')
+#6 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PW3\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\PW3\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\P...')
+#10 {main}
+CRITICAL - 2022-05-28 13:47:02 --> Undefined variable $carros
+#0 C:\wamp64\www\PW3\codeigniterProjeto3\app\Views\listaCarros.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\P...', 63)
+#1 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(210): include('C:\\wamp64\\www\\P...')
+#2 C:\wamp64\www\PW3\codeigniterProjeto3\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\PW3\codeigniterProjeto3\system\Common.php(1089): CodeIgniter\View\View->render('listacarros', Array, true)
+#4 C:\wamp64\www\PW3\codeigniterProjeto3\app\Controllers\Home.php(18): view('listacarros')
+#5 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(825): App\Controllers\Home->page('listacarros')
+#6 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\PW3\codeigniterProjeto3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\PW3\codeigniterProjeto3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\PW3\codeigniterProjeto3\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\P...')
+#10 {main}

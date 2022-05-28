@@ -24,7 +24,7 @@ class Home extends BaseController
 
         $data = [
             'title'=>'Carros',
-            'pessoas'=>$model->getCarros()
+            'carros'=>$model->getCarros()
         ];
 
         echo view('listaCarros',$data);

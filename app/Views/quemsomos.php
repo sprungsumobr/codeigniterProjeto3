@@ -33,13 +33,13 @@
                                     </a>
                                 </li>
                                 <li class="list" style="--clr:#58D68D;">
-                                    <a href="pessoa">
+                                    <a href="cadastro-carros">
                                         <span class="iconBarraLateral"><i class="fa-solid fa-car"></i></span>
                                         <span class="textBarraLateral">Cadastro de Veiculo</span>
                                     </a>
                                 </li>
                                 <li class="list" style="--clr:#A569BD;">
-                                    <a href="#">
+                                    <a href="listacarros">
                                         <span class="iconBarraLateral"><i class="fa-solid fa-car-side"></i></span>
                                         <span class="textBarraLateral">Lista de Veiculos</span>
                                     </a>
