@@ -54,10 +54,18 @@
         <!-- inicio do corpo da pagina-->
     
         <section class="carrosProdutos">
-            <div>
+            <div class="popular">
                 <img src="img\granta.png" alt="">
-                <p>Granta</p>
+                <h1>Granta</h1>
+                <p> A NEW READING OF A CLASSIC</p>
+                <p> Modern, streamlined, comfortable. A sedan with a roomy</p> 
+                <p> trunk that blends in coherently with the cars</p> 
+                <p> body shape. Just like an outfit that suits any figure.</p> 
+                <p> Like a movie that everyone has watched – always interesting</p> 
+                <p> and relevant in new ways.</p>
             </div>
+
+        <div class="conteudolateral">
             <div>
                 <img src="img\vesta.png" alt="">
                 <p>Vesta</p>
@@ -78,6 +86,8 @@
                 <img src="img\nival.png" alt="">
                 <p>Niva Legend</p>
             </div>
+        </div>
+
         </section>
 
         <!-- fim do corpo da pagina-->

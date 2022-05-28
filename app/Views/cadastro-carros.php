@@ -14,7 +14,7 @@
                     <div class="navigation">
                         <div class="menuToggle"></div>
                             <ul>
-                                <li class="list active" style="--clr:#f44336;">
+                                <li class="list" style="--clr:#f44336;">
                                     <a href="home">
                                         <span class="iconBarraLateral"><i class="fa-solid fa-house"></i></span>
                                         <span class="textBarraLateral">Home</span>
@@ -32,7 +32,7 @@
                                         <span class="textBarraLateral">Mensagem</span>
                                     </a>
                                 </li>
-                                <li class="list" style="--clr:#58D68D;">
+                                <li class="list active" style="--clr:#58D68D;">
                                     <a href="cadastro-carros">
                                         <span class="iconBarraLateral"><i class="fa-solid fa-car"></i></span>
                                         <span class="textBarraLateral">Cadastro de Veiculo</span>
@@ -50,45 +50,30 @@
         </div>
 
 
-<div class="col">
-        <h2>Cadastro de Veiculos</h2>
+    <div class="titulo">
+        <h1>Cadastro de Veiculos</h1>
     </div>
-<form action="gravar" method="post">
-    <div class="row">
-        <div class="col">
-            <div class="forms-group">
-                <label for="">Modelo: </label>
-                <input type="text" name="modelo" id="" class="form-control" 
-                value="<?= isset($carros['modelo']) ? $carros['modelo'] : "" ?>">
-
-            </div>
+        <div class="formularioCarro">
+            <form action="registrar" method="post">
+                <div>
+                     <label for="">Modelo: </label>
+                        <input placeholder="Ex:Vesta" type="text" name="modelo" id="" class="form-control" 
+                        value="<?= isset($carros['modelo']) ? $carros['modelo'] : "" ?>">
+                </div>
+                    <div>
+                        <label for="">Marca: </label>
+                            <input placeholder="Ex:Lada" type="text" name="profissao" id="" class="form-control"
+                            value="<?= isset($carros['marca']) ? $carros['marca'] : "" ?>">
+                    </div>
+                    <div>
+                        <label for="">Placa: </label>
+                            <input placeholder="Ex:MZC5922" type="text" name="placa" id="" class="form-control"
+                            value="<?= isset($carros['placa']) ? $carros['placa'] : "" ?>">
+                    </div>
+                        <input type="hidden" name="id"
+                        value="<?= isset($carros['id']) ? $carros['id'] : "" ?>">
+                    <div>
+                        <button type="submit" class="btnFormulario">Enviar</button>
+                    </div>
+            </form>
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <div class="forms-group">
-                <label for="">Marca: </label>
-                <input type="text" name="profissao" id="" class="form-control"
-                value="<?= isset($carros['marca']) ? $carros['marca'] : "" ?>">
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="forms-group">
-                <label for="">Placa: </label>
-                <input type="text" name="placa" id="" class="form-control"
-                value="<?= isset($carros['placa']) ? $carros['placa'] : "" ?>">
-            </div>
-        </div>
-    </div>
-        <input type="hidden" name="id"
-        value="<?= isset($carros['id']) ? $carros['id'] : "" ?>">
-    <div class="row">
-        <div class="col-6">
-            <div class="d-grid gap-2">
-                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
-            </div>
-        </div>
-    </div>
-</form>

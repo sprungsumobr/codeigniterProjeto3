@@ -16,6 +16,14 @@ img
     max-width: 100%;
     display: block;
 }
+.titulo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    color: #fff;
+}
 /*Barra Lateral*/
 .navigation
 {
@@ -183,8 +191,8 @@ color: var(--clr);
 .rodape
 {
     color: #fff;
-    bottom: 0;
-    z-index: -2;
+    bottom:0;
+    z-index:-2;
     position: absolute;
     display: flex;
     align-items: center;
@@ -198,13 +206,73 @@ color: var(--clr);
 
 .carrosProdutos
 {
-    display: flex;
-    flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    grid-gap: 20px;
     max-width: 800px;
+    padding: 10px;
     margin: 0 auto;
+    text-align: center;  
 }
-.carrosProdutos > div
+
+/* cadastro de carro*/
+
+.formularioCarro
 {
-    flex: 1 1 200px;
-    margin: 10px;
+    display: grid;
+    align-items:center;
+    justify-content: center;
+    margin: 5% auto;
+    color: #fff;
+}
+.formularioCarro form
+{
+    display: grid;
+    font-size: 30px;
+    grid-gap: 20px;
+    text-align: center;
+}
+.formularioCarro form input
+{
+    display: grid;
+    grid-gap: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+.formularioCarro form button.btnFormulario
+{
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+
+/*Home*/
+.carrosProdutos{
+    grid-template-columns: 1fr;
+}
+.conteudolateral
+{
+    display: flex;
+    overflow: scroll;
+}
+
+.conteudolateral > div 
+{
+    flex: 1 0 200px;
+    margin: 0 10px;
+}
+
 }

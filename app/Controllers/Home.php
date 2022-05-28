@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\PessoasModel;
+use App\Models\CarrosModel;
 
 class Home extends BaseController
 {
@@ -36,7 +36,7 @@ class Home extends BaseController
         echo view('template/footer');
     }
 
-    public function gravar(){
+    public function registrar(){
         $model = new CarrosModel();
 
         $model->save([

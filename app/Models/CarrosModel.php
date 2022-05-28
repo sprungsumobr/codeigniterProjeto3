@@ -4,10 +4,10 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class PessoasModel extends Model{
-    protected $table = 'tb_carros';
-    protected $primaryKey = 'id';
-    protected $allowedFields = ['modelo', 'marca', 'placa'];
+class CarrosModel extends Model{
+    public $table = 'tb_carros';
+    public $primaryKey = 'id';
+    public $allowedFields = ['modelo', 'marca', 'placa'];
 
     public function getCarros(){
         return $this->findAll();
