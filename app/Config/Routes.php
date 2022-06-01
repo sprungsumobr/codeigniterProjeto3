@@ -37,7 +37,7 @@ $routes->match(['get', 'post'] ,'excluir/(:num)' , 'Home::excluir/$1');
 $routes->match(['get', 'post'] ,'editar/(:num)' , 'Home::editar/$1');
 $routes->match(['get', 'post'] ,'registrar' , 'Home::registrar');
 $routes->match(['get', 'post'] ,'editar/registrar' , 'Home::registrar');
-$routes->get('listaCarros', 'Home::cadastroCarros');
+$routes->get('listaCarros', 'Home::listaCarros');
 $routes->get('(:any)', 'Home::page/$1');
 
 /*

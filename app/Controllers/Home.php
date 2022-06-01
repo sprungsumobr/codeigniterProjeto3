@@ -21,7 +21,12 @@ class Home extends BaseController
 
     public function listaCarros()
     {
-        echo view('listaCarros');
+        $model = new CarrosModel();
+
+        $data = [
+            'carros'=>$model->getCarros()
+        ];
+        echo view('listaCarros',$data);
         echo view('template/footer');
     }
 
