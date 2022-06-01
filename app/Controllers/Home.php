@@ -13,6 +13,18 @@ class Home extends BaseController
         echo view('template/footer');
     }
 
+    public function cadastroCarros()
+    {
+        echo view('cadastroCarros');
+        echo view('template/footer');
+    }
+
+    public function listaCarros()
+    {
+        echo view('listaCarros');
+        echo view('template/footer');
+    }
+
     public function page($page='home'){
         
         echo view($page);
@@ -32,7 +44,7 @@ class Home extends BaseController
     }
 
     public function cadastrar(){
-        echo view('cadastro-carros');
+        echo view('cadastroCarros');
         echo view('template/footer');
     }
 
@@ -61,10 +73,10 @@ class Home extends BaseController
         $model = new CarrosModel();
     
         $data = [
-            'pessoa' => $model->getCarro($id)
+            'listaCarros' => $model->getCarro($id)
         ];
     
-            echo view('cadastro-carros',$data);
+            echo view('cadastroCarros',$data);
             echo view('template/footer');
     }
 

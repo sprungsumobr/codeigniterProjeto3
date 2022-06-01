@@ -35,9 +35,9 @@ $routes->get('/', 'Home::page');
 $routes->match(['get', 'post'] ,'cadastro' , 'Home::cadastro');
 $routes->match(['get', 'post'] ,'excluir/(:num)' , 'Home::excluir/$1');
 $routes->match(['get', 'post'] ,'editar/(:num)' , 'Home::editar/$1');
-$routes->match(['get', 'post'] ,'gravar' , 'Home::gravar');
-$routes->match(['get', 'post'] ,'editar/gravar' , 'Home::gravar');
-$routes->get('listaCarros', 'Home::cadastro-carros');
+$routes->match(['get', 'post'] ,'registrar' , 'Home::registrar');
+$routes->match(['get', 'post'] ,'editar/registrar' , 'Home::registrar');
+$routes->get('listaCarros', 'Home::cadastroCarros');
 $routes->get('(:any)', 'Home::page/$1');
 
 /*

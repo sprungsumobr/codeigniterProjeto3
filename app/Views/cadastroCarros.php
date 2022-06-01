@@ -33,7 +33,7 @@
                                     </a>
                                 </li>
                                 <li class="list active" style="--clr:#58D68D;">
-                                    <a href="cadastro-carros">
+                                    <a href="cadastroCarros">
                                         <span class="iconBarraLateral"><i class="fa-solid fa-car"></i></span>
                                         <span class="textBarraLateral">Cadastro de Veiculo</span>
                                     </a>
@@ -62,7 +62,7 @@
                 </div>
                     <div>
                         <label for="">Marca: </label>
-                            <input placeholder="Ex:Lada" type="text" name="profissao" id="" class="form-control"
+                            <input placeholder="Ex:Lada" type="text" name="marca" id="" class="form-control"
                             value="<?= isset($carros['marca']) ? $carros['marca'] : "" ?>">
                     </div>
                     <div>

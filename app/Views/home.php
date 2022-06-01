@@ -34,7 +34,7 @@
                                     </a>
                                 </li>
                                 <li class="list" style="--clr:#58D68D;">
-                                    <a href="cadastro-carros">
+                                    <a href="cadastroCarros">
                                         <span class="iconBarraLateral"><i class="fa-solid fa-car"></i></span>
                                         <span class="textBarraLateral">Cadastro de Veiculo</span>
                                     </a>
